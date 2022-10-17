@@ -2,12 +2,12 @@
 
 Console.WriteLine("введите первое число:   ");
 string A1 = Console.ReadLine ();
-Console.WriteLine("введите второе число:   ");
+Console.WriteLine("введите второе целочисленное число:   ");
 string B1 = Console.ReadLine ();
-int result = 1;
+Double result = 1;
 try
 {
-    int A = int.Parse (A1);
+    double A = Convert.ToDouble (A1);
     int B = int.Parse (B1);
 for (int i = 0; i < B; i++)
 {
